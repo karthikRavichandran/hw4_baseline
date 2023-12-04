@@ -10,6 +10,7 @@ import javax.swing.JOptionPane;
 import model.ExpenseTrackerModel;
 import model.Transaction;
 import model.Filter.TransactionFilter;
+// import model.ExpenseTrackerModelListener;
 
 public class ExpenseTrackerController {
   
@@ -70,6 +71,20 @@ public class ExpenseTrackerController {
       view.toFront();}
 
   }
+
+  /**
+   * Update method required by ExpenseTrackerModelListener.
+   * This method is called by the model when there is a state change.
+   * It's part of the Observer design pattern.
+   */
+  //@Override
+  public void update(ExpenseTrackerModel model) {
+    // Update the controller with the new state from the model
+    this.model = model;
+    // Update the view with the new state
+    this.view.update(this.model);
+  }
+
 
   //for undoing any selected transaction
   public boolean undoTransaction(int rowIndex) {
