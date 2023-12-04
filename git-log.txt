@@ -1,0 +1,65 @@
+commit c5ca852193d6189b3aeac17b10c3a04aa07f8ad4
+Author: Karthik Ravichandran <karthikravi@Karthiks-MacBook-Pro.local>
+Date:   Sun Dec 3 21:26:29 2023 -0500
+
+    added pdf file
+
+commit b84d719f1c5fc75b65382d765fef8e48355f176f
+Author: Karthik Ravichandran <karthikravi@Karthiks-MacBook-Pro.local>
+Date:   Sun Dec 3 20:56:24 2023 -0500
+
+    Cleaning TODO
+
+commit e97290247f584bc14356441c3d9a7af5d9143fa8
+Author: Karthik Ravichandran <karthikravi@Karthiks-MacBook-Pro.local>
+Date:   Sun Dec 3 20:52:51 2023 -0500
+
+    Completed all the TODO task and 11 Test cases ran correctly
+
+commit ca8762f9af7a8f942e060d6bec6402da86c993ec
+Author: Karthik Ravichandran <karthikravi@Karthiks-MacBook-Pro.local>
+Date:   Sun Dec 3 20:49:19 2023 -0500
+
+    Added jdoc for TODO  methods and compiled the jdoc
+
+commit a37a4c8d84d27dfa856ff06ed1f587812021a4e3
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Thu Nov 23 09:07:51 2023 -0500
+
+    Update TestExample.java
+    
+    Needed to fix one more typo in the testRegisterSucceeds test case.
+
+commit 27cde1b9350e3211902cce78ba5030dfa077b842
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Thu Nov 23 08:59:21 2023 -0500
+
+    Update TestExample.java
+    
+    Fixed typos in the testRegisterSucceeeds test case.
+
+commit 026b11d92c5b8c427244035c588ab2b88afaf6f6
+Author: Heather Conboy <hconboy@Heathers-MBP.hsd1.ma.comcast.net>
+Date:   Wed Nov 22 09:53:26 2023 -0500
+
+    For the MVC architecture pattern, the Observer design pattern will now be used to update the View after the Model is manipulated by the Controller. Started to modify the Model to be the Observable. Added the ExpenseTrackerModelListener interface to be the Observer interface. Modified the ExpenseTrackerView class to be a concrete Observer class. Started to modify the Controller class to apply this pattern. For test driven development, modified the test suite to add the register test cases. One of them is currently failing.
+
+commit 842d5a8ab840c6f5eb3d63a5ab1cb6a2d27b9560
+Author: Heather Conboy <hconboy@Heathers-MBP.hsd1.ma.comcast.net>
+Date:   Wed Nov 22 09:05:16 2023 -0500
+
+    Modified the Model to store the matched filter indices. Modified the Controller to use these indices.
+
+commit 32081791f9171baef8004e30d58f79780494f108
+Author: Heather Conboy <hconboy@Heathers-MBP.hsd1.ma.comcast.net>
+Date:   Tue Nov 21 20:41:18 2023 -0500
+
+    Copied over the hw3-solution to the hw4_baseline.
+
+commit c66f84f702f27077ec6d22a1547c99f2874ef4a1
+Author: Heather Conboy <hconboy@cs.umass.edu>
+Date:   Tue Nov 21 16:36:46 2023 -0500
+
+    Create README.md
+    
+    Copied over the hw3_solution. For the View, partially implemented the Composite design pattern.
